@@ -1,6 +1,6 @@
 # ✳️ Nvim Export
 
-A plugin to export every .ts file from the current file buffer folder.
+A plugin to export every `.ts` file from the current file buffer folder.
 
 ## Installation
 
@@ -15,3 +15,6 @@ Install with your plugin manager of choice. Example for `lazy`
   },
 ```
 
+## Usage
+
+run `:Export` with the `index.ts` file of your choice open.
