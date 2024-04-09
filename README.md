@@ -8,6 +8,7 @@ Install with your plugin manager of choice. Example for `lazy`
 ```lua
   {
     "OsmarJoseph/Export.nvim",
+    event = "BufEnter *.ts",
     lazy = true,
     config = function()
       require('export').setup()
